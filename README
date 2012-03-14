@@ -1,0 +1,25 @@
+This is an Eclipse template to create new ivy-enabled projects which supports
+both Java and Scala development.
+
+The settings files (build.xml, build.properties, ivysettings.xml, ivy.xml) are
+copy-pasted from several places with small amount of customization.
+
+Directory sructure:
+
+project-directory		-> top level directory
+ |`- build			-> built product (jar, classes) goes here
+ |`- ivy			-> ivy lib
+ |`- lib			-> ivy's resolved libs
+ |`- src			-> source folders
+ |    |`- main
+ |    |    `- packages		-> app codes
+ |    |`- test
+ |    |    `- packages		-> test code
+ |    |`- .project		-> eclipse
+ |    |`- .classpath		->    files
+ |    |`- build.properties	
+ |    |`- build.xml		-> build
+ |    |`- ivy.xml		->    files
+ |     `- ivysettings.xml	
+  ` README
+

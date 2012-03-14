@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivysettings>
+	<properties file="build.properties"/>
+	
+	<settings defaultResolver="chained" />
+	
+	<resolvers>
+		<chain name="chained">
+			<ibiblio name="Java.Net Maven2 Mirror" root="http://download.java.net/maven/2/" 
+				m2compatible="true" />
+			<ibiblio name="Scala-Tools Maven2 Repository" root="http://scala-tools.org/repo-releases"
+				m2compatible="true" />
+			<ibiblio name="ibiblio" />
+		</chain>
+	</resolvers>
+</ivysettings>
