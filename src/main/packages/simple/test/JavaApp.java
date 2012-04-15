@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 public class JavaApp {
 	private static final Logger LOGGER = LoggerFactory.getLogger(JavaApp.class);
-	
+
 	/**
 	 * @param args
 	 */
